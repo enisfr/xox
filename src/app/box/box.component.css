@@ -4,6 +4,7 @@
   border: black solid 1px;
   color: white;
   font-size: 50px;
+  border-radius: 0;
 }
 .default-button {
   width: 100px;
@@ -12,4 +13,5 @@
   color: white;
   background: lightgray;
   font-size: 50px;
+  border-radius: 0;
 }
