@@ -1,0 +1,17 @@
+<div class="main">
+  <div *ngIf="!gameOver && !noOneWins"  class="alert alert-{{nextPlayer === 'X' ? 'primary' : 'success'}} mt-5 font-weight-bold" role="alert"> Next Player: {{nextPlayer}} </div>
+  <div *ngIf="gameOver && !noOneWins" class="alert alert-{{nextPlayer === 'X' ? 'primary' : 'success'}} mt-5 font-weight-bold" role="alert">WINNER IS {{nextPlayer}} !! </div>
+  <div *ngIf="noOneWins"   class="alert alert-danger mt-5 font-weight-bold" role="alert">GAME OVER!!</div>
+
+  <div class="game-board">
+    <div class="grid">
+      <div *ngFor="let box of boxes; let i = index">
+        <app-box [boxValue]="box" (click)="makeMove(i)"></app-box>
+      </div>
+    </div>
+  </div>
+
+
+  <button class="btn btn-outline-danger button" type="button" (click)="startGame()">Start A New Game</button>
+
+</div>

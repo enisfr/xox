@@ -1,0 +1,15 @@
+.box-button {
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  color: white;
+  font-size: 50px;
+}
+.default-button {
+  width: 100px;
+  height: 100px;
+  border: black solid 1px;
+  color: white;
+  background: lightgray;
+  font-size: 50px;
+}

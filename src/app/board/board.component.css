@@ -1,0 +1,28 @@
+.main{
+  display: grid;
+  justify-content: center;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 0;
+}
+
+.game-board{
+  display: flex;
+  justify-content: center;
+}
+
+.info{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: Arial, serif;
+}
+
+.button{
+  margin-top: 20px;
+  width: 300px;
+  font-weight: bold;
+}
