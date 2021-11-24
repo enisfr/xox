@@ -1,7 +1,19 @@
-# Xox
+
+# XOX
+This project is developed by [enisfr](https://github.com/enisfr)
+
+
 Fun Little XOX (Tic Tac Toe) Game Developed With Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
+
+# Stack
+
+ - Angular
+ - Ngrx
+ - Bootstrap
+ - HTML
+ - CSS
 
 ## Development server
 
